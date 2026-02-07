@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Tiwari | Data Scientist Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            scroll-behavior: smooth;
+            background: url('../images/space-dust-universe-galaxy-with-pink-purple-nebula-backdrop-generative-ai_626747-931.avif') no-repeat center center fixed; /* Galaxy background (user will add URL) */
+            background-size: cover;
+        }
+        .hero {
+            background: linear-gradient(to right, #1a0855, #240046, #3c096c);
+            color: white;
+            padding: 120px 0;
+            text-align: center;
+            backdrop-filter: brightness(0.7);
+        }
+        .navbar {
+            background: linear-gradient(to right, #240046, #3c096c);
+        }
+        .skill-card:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+            background: #3c096c;
+            color: #fff;
+        }
+        footer {
+            background: #1a0855;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.85);
+            border: none;
+            backdrop-filter: blur(4px);
+        }
+    
+
+  .profile-circle {
+    width: 200px;              
+    height: 200px;
+    object-fit: cover;         
+    border-radius: 50%;        
+    border: 4px solid rgba(255,255,255,0.15); 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    transition: transform 0.25s ease;
+  }
+  .profile-circle:hover {
+    transform: translateY(-6px) scale(1.03);
+  }
+
+  @media (max-width: 576px) {
+    .profile-circle { width: 140px; height: 140px; }
+  }
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Aditya Tiwari</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item ms-2"><a class="btn btn-outline-light btn-sm" href="../FILES/ADITYA TIWARI Resume CU.pdf" download> MY RESUME </a>
+</li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Aspiring Data Scientist & Analyst</h1>
+        <p class="lead mt-3">Eager to learn through experience , Turning complex data into powerful insights using analytical knowledge , <br>
+             Problem solving skills and much more .</p>
+        <a href="#contact" class="btn btn-light btn-lg mt-3">LET'S TALK</a>
+    </div>
+</section>
+
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6" style="color: aliceblue;">
+                <h2 >About Me</h2>
+                <p>Enthusiastic and highly motivated with a strong foundation in data analysis, statistical modeling, and machine learning. Passionate about leveraging data to drive business growth and improve decision‑making processes.</p>
+                <p>Currently pursuing MSc in Mechanical Engineering with specialization in Data Science.</p>
+            </div>
+               <div class="col-md-6 text-center">
+                  <img src="../images/my picture.jpeg" alt="Aditya Tiwari" class="profile-circle mx-auto d-block" loading="lazy">
+               </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Technical Skills</h2>
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="card skill-card p-3 shadow-sm text-center">Python</div>
+            </div>
+            <div class="col-md-3">
+                <div class="card skill-card p-3 shadow-sm text-center">SQL</div>
+            </div>
+            <div class="col-md-3">
+                <div class="card skill-card p-3 shadow-sm text-center">Tableau</div>
+            </div>
+            <div class="col-md-3">
+                <div class="card skill-card p-3 shadow-sm text-center">Power BI</div>
+            </div>
+            <div class="col-md-3">
+                <div class="card skill-card p-3 shadow-sm text-center mt-3">R Programming</div>
+            </div>
+            <div class="col-md-3">
+                <div class="card skill-card p-3 shadow-sm text-center mt-3">Machine Learning</div>
+            </div>
+            <div class="col-md-3">
+                <div class="card skill-card p-3 shadow-sm text-center mt-3">Excel</div>
+            </div>
+            <div class="col-md-3">
+                <div class="card skill-card p-3 shadow-sm text-center mt-3">AWS / Hadoop</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="experience" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4" style="color: aliceblue;">Work Experience</h2>
+        <div class="accordion" id="expAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#exp1">Cyber Security Intern — Code Alpha</button>
+                </h2>
+                <div id="exp1" class="accordion-collapse collapse show" data-bs-parent="#expAccordion">
+                    <div class="accordion-body">During this internship, I worked on identifying vulnerabilities, analyzing security risks, and strengthening system defenses. I assisted in monitoring networks, documenting issues, and implementing basic cybersecurity measures. This role helped me build a strong foundation in security tools, threat identification, and safe computing practices. My projects related to n-maps can be found below and in my git.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exp2">Data Science Intern — Prodigy InfoTech</button>
+                </h2>
+                <div id="exp2" class="accordion-collapse collapse" data-bs-parent="#expAccordion">
+                    <div class="accordion-body">At Prodigy InfoTech, I worked on real-world data analysis and machine learning tasks. I cleaned and prepared datasets, built predictive models, and created data visualizations to extract meaningful insights. I also collaborated on problem-solving activities, improving my understanding of algorithms, Python workflows, and analytical thinking. My projects related to that can be found below and in my git..</div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exp3">SEO & Digital Marketing Intern</button>
+                </h2>
+                <div id="exp3" class="accordion-collapse collapse" data-bs-parent="#expAccordion">
+                    <div class="accordion-body">In this role, I optimized website performance using SEO strategies, keyword research, and content improvement. I contributed to enhancing digital reach by analyzing website metrics and user behavior. This internship strengthened my skills in data-driven marketing, Google tools, and understanding how analytics influence brand growth.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="certifications" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Certifications (Coursera)</h2>
+
+        <div id="certCarousel" class="carousel slide" data-bs-ride="carousel" style="background-color:antiquewhite;">
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                    <h5>Introduction to Cyber Security Essentials</h5>
+                    <p>Completed: October 2024</p>
+                    <img src="../images/Introduction to Cybersecurity Essentials_page-0001.jpg" class="d-block mx-auto img-fluid rounded" style="max-height:350px;">
+                </div>
+
+                <div class="carousel-item text-center">
+                    <h5>Google IT Automation with Python</h5>
+                    <p>Completed: October 2024</p>
+                    <img src="../images/Using Python to Interact with the Operating_page-0001.jpg" class="d-block mx-auto img-fluid rounded" style="max-height:350px;">
+                </div>
+
+                <div class="carousel-item text-center">
+                    <h5>High Performance Collaboration</h5>
+                    <p>Completed: October 2024</p>
+                    <img src="../images/Leadership LeadershipLeadership_page-0001.jpg" class="d-block mx-auto img-fluid rounded" style="max-height:350px;">
+                </div>
+
+                <div class="carousel-item text-center">
+                    <h5>Teamwork Skills</h5>
+                    <p>Completed: October 2024</p>
+                    <img src="../images/Communicating Effectively in_page-0001.jpg" class="d-block mx-auto img-fluid rounded" style="max-height:350px;">
+                </div>
+
+                <div class="carousel-item text-center">
+                    <h5>Operating Systems and You</h5>
+                    <p>Completed: September 2024</p>
+                    <img src="../images/Operating Systems and You Becoming a Power User_page-0001.jpg" class="d-block mx-auto img-fluid rounded" style="max-height:350px;">
+                </div>
+
+                <div class="carousel-item text-center">
+                    <h5>AI for Everyone</h5>
+                    <p>Completed: Sep–Nov 2024</p>
+                    <img src="../images/AI FOR EVERYONE_page-0001.jpg" class="d-block mx-auto img-fluid rounded" style="max-height:350px;">
+                </div>
+
+                <div class="carousel-item text-center">
+                    <h5>Python to Interact with the OS</h5>
+                    <p>Completed: August 2024</p>
+                    <img src="../images/Using Python to Interact with the Operating_page-0001.jpg" class="d-block mx-auto img-fluid rounded" style="max-height:350px;">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#certCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#certCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+</section>
+
+
+<section id="projects" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Projects</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card shadow-sm p-3">
+                    <h4>Face Recognition Ticketing System</h4>
+                    <p>An advanced ML-driven fraud detection system that leverages image-based facial verification to ensure secure and seamless ticketing. The system automatically validates user identity, detects fraudulent attempts in real-time, and reduces manual verification efforts, enhancing both security and operational efficiency. Ideal for events, transport, and access-controlled environments, it combines computer vision, deep learning, and real-time analytics for reliable authentication.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card shadow-sm p-3">
+                    <h4>Stock Market Day Trading Analysis</h4>
+                    <p>A research-driven project leveraging predictive analytics and machine learning to improve decision-making in day trading. The system analyzes historical and real-time market data, identifies patterns and trends, and provides actionable insights to optimize trading strategies. By combining statistical modeling, feature engineering, and risk assessment, it aims to enhance profitability, reduce potential losses, and support data-driven trading decisions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4 " style="color:antiquewhite;">Contact Me</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card p-4 shadow-sm">
+                    <p><strong>Email:</strong>  <a href="adityatiwari20045@gmail.com">adityatiwari20045@gmail.com</a></p>
+                    <p><strong>Phone:</strong>  <a href="9431530409">9431530409</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/adi4398" target="_blank">github.com/adi4398</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
+<footer style="text-align: center; padding: 20px; background: #111; color: #fff; font-size: 14px;">
+    © 2025 Aditya Tiwari — Data Scientist & Analyst  
+    <a href="https://www.linkedin.com/in/aditya-tiwari-b5380831a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" style="margin-left: 10px; color: #ffffff;">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/adi4398" target="_blank" style="margin-left: 10px; color: #fff;">
+        <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.instagram.com/_aditya._tiwari?igsh=ZDgzbzVwMHpla3Rz" target="_blank" style="margin-left: 10px; color: #fbf7f9;">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="adityatiwari20045@gmail.com" style="margin-left: 10px; color: #f7f5f5;">
+        <i class="fas fa-envelope"></i>
+    </a>
+    <a href="tel:+9142374212" style="margin-left: 10px; color: #f7f9f8;">
+        <i class="fas fa-phone"></i>
+    </a>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
